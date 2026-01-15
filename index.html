@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriMonitorAI - AI-Powered Crop Health Monitoring</title>
+    <meta name="description" content="Revolutionary AI-powered platform for monitoring crop health, soil conditions, and pest risks using hyperspectral imaging and sensor data.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-seedling"></i>
+                <span>AgriMonitorAI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#technology" class="nav-link">Technology</a></li>
+                <li><a href="#users" class="nav-link">For Users</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Revolutionizing Agriculture with 
+                    <span class="highlight">AI-Powered Monitoring</span>
+                </h1>
+                <p class="hero-description">
+                    Transform your farming operations with our cutting-edge platform that combines hyperspectral imaging, 
+                    environmental sensors, and deep learning to provide real-time insights on crop health, soil conditions, 
+                    and pest risks.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Explore Features
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i>
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="card-header">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Live Monitoring Dashboard</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="metric">
+                            <span class="metric-label">Crop Health Index</span>
+                            <span class="metric-value good">92%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Soil Moisture</span>
+                            <span class="metric-value moderate">68%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Pest Risk</span>
+                            <span class="metric-value low">Low</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="problem-content">
+                <h2>The Challenge in Modern Agriculture</h2>
+                <div class="problem-grid">
+                    <div class="problem-item">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h3>Growing Threats</h3>
+                        <p>Soil degradation, unpredictable weather, and pest outbreaks are causing significant yield losses and economic damage.</p>
+                    </div>
+                    <div class="problem-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Delayed Detection</h3>
+                        <p>Traditional monitoring methods are often too late, labor-intensive, and lack the precision needed for effective intervention.</p>
+                    </div>
+                    <div class="problem-item">
+                        <i class="fas fa-chart-line-down"></i>
+                        <h3>Reactive Approach</h3>
+                        <p>Farmers are forced to react to problems after they occur, rather than preventing them through proactive management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comprehensive Monitoring Solutions</h2>
+                <p>Our AI-powered platform provides end-to-end agricultural intelligence</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Hyperspectral Imaging</h3>
+                    <p>Advanced multispectral and hyperspectral image analysis to detect crop stress, disease, and nutrient deficiencies at the pixel level.</p>
+                    <ul class="feature-list">
+                        <li>Real-time vegetation indices extraction</li>
+                        <li>Early disease detection</li>
+                        <li>Nutrient deficiency mapping</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-Driven Analysis</h3>
+                    <p>Deep learning models including LSTM and CNN for predictive analytics and trend detection in crop health patterns.</p>
+                    <ul class="feature-list">
+                        <li>LSTM for temporal pattern recognition</li>
+                        <li>CNN for spatial feature extraction</li>
+                        <li>Continuous model improvement</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sensors"></i>
+                    </div>
+                    <h3>Environmental Sensors</h3>
+                    <p>Integration of soil moisture, temperature, humidity, and leaf wetness sensors for comprehensive field monitoring.</p>
+                    <ul class="feature-list">
+                        <li>Multi-parameter sensor fusion</li>
+                        <li>Real-time data collection</li>
+                        <li>Environmental context analysis</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Pest Risk Assessment</h3>
+                    <p>Predictive modeling to identify conditions conducive to pest outbreaks and provide early warning systems.</p>
+                    <ul class="feature-list">
+                        <li>Pest outbreak prediction</li>
+                        <li>Risk zone identification</li>
+                        <li>Targeted intervention alerts</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Precision Mapping</h3>
+                    <p>Field-level insights with zone-specific recommendations for targeted agricultural interventions.</p>
+                    <ul class="feature-list">
+                        <li>High-resolution health maps</li>
+                        <li>Zone-specific alerts</li>
+                        <li>Precision agriculture support</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Dashboard</h3>
+                    <p>Intuitive, mobile-friendly interface with real-time notifications and comprehensive reporting capabilities.</p>
+                    <ul class="feature-list">
+                        <li>Real-time mobile notifications</li>
+                        <li>Interactive dashboard</li>
+                        <li>Comprehensive reporting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powered by Cutting-Edge Technology</h2>
+                <p>Built on MATLAB's advanced toolboxes for maximum reliability and performance</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Hyperspectral Imaging Library</h3>
+                    <p>Advanced hyperspectral image processing capabilities for detailed spectral analysis and vegetation monitoring.</p>
+                    <a href="https://in.mathworks.com/matlabcentral/fileexchange/76796-hyperspectral-imaging-library-for-image-processing-toolbox" target="_blank" class="tech-link">
+                        Learn More <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Image Processing Toolbox</h3>
+                    <p>Comprehensive image analysis tools for processing multispectral imagery and extracting meaningful agricultural insights.</p>
+                    <a href="https://in.mathworks.com/products/image-processing.html" target="_blank" class="tech-link">
+                        Learn More <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Deep Learning Toolbox</h3>
+                    <p>Advanced neural network architectures including LSTM and CNN for predictive modeling and pattern recognition.</p>
+                    <a href="https://in.mathworks.com/products/deep-learning.html" target="_blank" class="tech-link">
+                        Learn More <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Users -->
+    <section id="users" class="users">
+        <div class="container">
+            <div class="section-header">
+                <h2>Designed for Agricultural Professionals</h2>
+                <p>Empowering decision-makers across the agricultural value chain</p>
+            </div>
+            
+            <div class="users-grid">
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Agronomists</h3>
+                    <p>Get detailed field analysis and scientific insights to make data-driven recommendations for crop management and optimization.</p>
+                </div>
+                
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Researchers</h3>
+                    <p>Access comprehensive datasets and advanced analytics tools for agricultural research and development projects.</p>
+                </div>
+                
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Field Technicians</h3>
+                    <p>Receive real-time alerts and mobile-friendly interfaces for efficient field monitoring and maintenance operations.</p>
+                </div>
+                
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-tractor"></i>
+                    </div>
+                    <h3>Progressive Farmers</h3>
+                    <p>Transform traditional farming with precision agriculture insights and proactive crop management capabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Transform Your Agricultural Operations</h2>
+                <p>Experience the power of proactive, data-driven farming</p>
+            </div>
+            
+            <div class="benefits-content">
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <h4>Increased Yields</h4>
+                            <p>Early detection and targeted interventions lead to healthier crops and improved productivity.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <i class="fas fa-dollar-sign"></i>
+                        <div>
+                            <h4>Reduced Costs</h4>
+                            <p>Optimize resource usage and reduce waste through precision application of inputs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <h4>Risk Mitigation</h4>
+                            <p>Proactive monitoring helps prevent crop losses from pests, diseases, and environmental stress.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <i class="fas fa-leaf"></i>
+                        <div>
+                            <h4>Sustainable Practices</h4>
+                            <p>Promote environmental sustainability through data-driven decision making and resource optimization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ready to Transform Your Farm?</h2>
+                <p>Get started with AgriMonitorAI today and experience the future of precision agriculture</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="organization" name="organization" placeholder="Organization/Farm Name">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your monitoring needs" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@agrimonitorai.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Agricultural Technology Center<br>Innovation District</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-seedling"></i>
+                        <span>AgriMonitorAI</span>
+                    </div>
+                    <p>Empowering sustainable agriculture through AI-powered monitoring and precision farming solutions.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#technology">Technology</a></li>
+                            <li><a href="#users">For Users</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#careers">Careers</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#docs">Documentation</a></li>
+                            <li><a href="#help">Help Center</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AgriMonitorAI. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
